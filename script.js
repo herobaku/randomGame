@@ -4,7 +4,7 @@ const input = document.querySelector("input"),
       output = document.querySelector(".output"),
       box = document.querySelector(".box");
 
-let randomNumber = Math.floor( Math.random() * 100 ) + 1
+let randomNumber = Math.floor( Math.random() * 10 ) + 1
 
 function check() {
   let ins = +input.value
